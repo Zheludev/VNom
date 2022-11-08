@@ -3,6 +3,14 @@ Viroid Nominator (VNom): reference free tool for nominating viroid-like de novo 
 
 =================================================
 
+**overview**
+
+more detail to found in upcoming preprint
+
+![VNom_overview](VNom_overview.png)
+
+=================================================
+
 **installation (Linux)**
 
 0. make sure you have [conda isntalled](https://docs.conda.io/en/latest/miniconda.html)

@@ -3,7 +3,7 @@ Viroid Nominator (VNom): a reference free tool for nominating viroid-like de nov
 
 =================================================
 
-**overview**
+## overview
 
 more detail to found in upcoming preprint
 
@@ -24,7 +24,7 @@ Because of how VNom works, the input contigs need to be derived from stranded RN
 
 =================================================
 
-**installation (Linux)**
+## installation (Linux)
 
 0. make sure you have [conda installed](https://docs.conda.io/en/latest/miniconda.html)
 

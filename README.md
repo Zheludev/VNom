@@ -46,8 +46,8 @@ make -f Makefile
 
 cd ../test_data
 
-sed 's/NODE/SRR11060618/g' SRR11060618_contigs.fasta > peach_contigs.fasta
+sed 's/NODE/SRR11060618/g' SRR11060618_subset.fasta > peach_subset.fasta
 
-seqkit grep -v -s -p 'N' peach_contigs.fasta > temp && mv temp peach_contigs.fasta
+seqkit grep -v -s -p 'N' peach_subset.fasta > temp && mv temp peach_subset.fasta
 
-python ../VNom.py -i peach_contigs -max 2000 -CF_k 10 -CF_simple 0 -CF_tandem 1 -USG_vs_all 1 > peach_contigs_VNom.log
+python ../VNom.py -i peach_subset -max 2000 -CF_k 10 -CF_simple 0 -CF_tandem 1 -USG_vs_all 1 > peach_subset_VNom.log

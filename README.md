@@ -13,7 +13,7 @@ VNom works by sequential filtering:
 
 1. identify contigs with terminal k-mer repeats (consistent with circularity) and attempt to resolve any concatemers within said contigs
 2. cluster contigs based on sequence identity allowing for circular permutation
-3. keep clusters that contain both positive and netagive sense polarities
+3. keep clusters that contain both positive and negative sense polarities (indicative of active replication in the sample)
 4. using these clusters, query all the previously discarded contigs for high confidence hits and add to said clusters
 
 outputs are stored to `4_final_clusters` (so if this dir wasn't written, VNom failed to nominate viroid-like contigs - the stdout might contain enough inforation to say what happened. I find that often the dual-polarity filter is where VNom quits - that is, this appears to be a fairly high bar. Omitting it doesn't make molecular sense and appears to give a large false positive rate).

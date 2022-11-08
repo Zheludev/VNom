@@ -1,0 +1,9 @@
+name: VNom
+channels:
+  - anaconda
+  - bioconda
+dependencies:
+  - python
+  - git
+  - cmake
+  - seqkit

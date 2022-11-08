@@ -6,6 +6,7 @@ Viroid Nominator (VNom): reference free tool for nominating viroid-like de novo 
 **installation (Linux)**
 
 0. make sure you have conda installed
+
 [miniconda]([url](https://docs.conda.io/en/latest/miniconda.html))
 
 1. create conda environment:
@@ -19,6 +20,7 @@ conda activate VNom
 ```
 
 2. install circUCLUST
+
 [circUCLUST]([url](https://github.com/rcedgar/circuclust/releases))
 
 ```
@@ -32,6 +34,7 @@ chmod +x circuclust
 ```
 
 3. install usearch
+
 [USEARCH]([url](https://www.drive5.com/usearch/))
 
 (in dependencies/)
@@ -47,6 +50,7 @@ chmod +x usearch
 ```
 
 4. install mars
+
 [mars]([url](https://github.com/lorrainea/MARS))
 
 ```

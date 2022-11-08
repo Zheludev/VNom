@@ -79,6 +79,7 @@ make -f Makefile
 ```
 
 5. test VNom
+
 here, I filter out any contigs with 'N's in them, and also re-name the 'NODE' string in each contig to be more informative later.
 
 ```

@@ -26,7 +26,7 @@ Because of how VNom works, the input contigs need to be derived from stranded RN
 
 **installation (Linux)**
 
-0. make sure you have [conda isntalled](https://docs.conda.io/en/latest/miniconda.html)
+0. make sure you have [conda installed](https://docs.conda.io/en/latest/miniconda.html)
 
 1. create conda environment:
 

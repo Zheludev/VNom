@@ -1,5 +1,5 @@
 # VNom
-Viroid Nominator (VNom): reference free tool for nominating viroid-like de novo assembled contigs
+Viroid Nominator (VNom): a reference free tool for nominating viroid-like de novo assembled contigs
 
 =================================================
 
@@ -20,7 +20,7 @@ outputs are stored to `4_final_clusters`
 
 VNom puposefully takes a vague approach to nominating viroid-like contigs, which means its outputs are not guaranteed to be viroids. Strictly, VNom gives a set of clusters whose molecular characteristics are not inconsistent with being viroids. I've found that this is a reasonably stringent set of requirements but repetitive sequences (say, centromeric sequences) do pop up.
 
-Because of how VNom works, the input contigs need to be derived from stranded RNA-seq.
+Because of how VNom works, the input contigs need to be derived from stranded RNA-seq. I recommend using [rnaSPAdes](https://cab.spbu.ru/software/rnaspades/) for assembly.
 
 =================================================
 

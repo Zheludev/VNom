@@ -83,7 +83,7 @@ make -f Makefile
 here, I filter out any contigs with 'N's in them, and also re-name the 'NODE' string in each contig to be more informative later.
 
 ```
-cd ../test_data
+cd ../../test_data
 
 sed 's/NODE/SRR11060618/g' SRR11060618_subset.fasta > peach_subset.fasta
 

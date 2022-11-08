@@ -9,6 +9,15 @@ more detail to found in upcoming preprint
 
 ![VNom_overview](VNom_overview.png)
 
+VNom works by sequential filtering:
+
+1. identify contigs with terminal k-mer repeats (consistent with circularity) and attempt to resolve any concatemers within said contigs
+2. cluster contigs based on sequence identity allowing for circular permutation
+3. keep clusters that contain both positive and netagive sense polarities
+4. using these clusters, query all the previously discarded contigs for high confidence hits and add to said clusters
+
+outputs are stored to `4_final_clusters`
+
 =================================================
 
 **installation (Linux)**

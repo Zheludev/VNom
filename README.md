@@ -82,13 +82,13 @@ make -f Makefile
 
 here, I filter out any contigs with 'N's in them, and also re-name the 'NODE' string in each contig to be more informative later.
 
-A KEY POINT ON NAMES:
+A KEY POINT ON NAMES:  
 
-a. the contig seqIDs need to be in the extact same layout (wrt underscores) as the default rnaSPAdes output, here I replace 'NODE' with a more informative string - adding more underscores will cause VNom to crash
+a. the contig seqIDs need to be in the extact same layout (wrt underscores) as the default rnaSPAdes output, here I replace 'NODE' with a more informative string - adding more underscores will cause VNom to crash  
 
-b. the contigs file must have a single underscore name with a .fasta file ending (so X_Y.fasta is good, but XY.fasta is bad)
+b. the contigs file must have a single underscore name with a .fasta file ending (so X_Y.fasta is good, but XY.fasta is bad)  
 
-c. you must specify this single underscore name without the file ending for VNom
+c. you must specify this single underscore name without the file ending for VNom  
 
 
 ```

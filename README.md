@@ -5,7 +5,7 @@ Viroid Nominator (VNom): a reference free tool for nominating viroid-like de nov
 
 ## overview
 
-more detail to found in upcoming preprint
+more detail to found in the [accompanying](https://www.biorxiv.org/content/10.1101/2024.01.20.576352v1) preprint. 
 
 ![VNom_overview](VNom_overview.png)
 
